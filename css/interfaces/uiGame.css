@@ -1,0 +1,73 @@
+/* ------------------------------------------ */
+#iuGame-pokemons {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+#iuGame-pokemons > * {
+    position: relative;
+    background-color: #313234;
+	height: 50px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    color: white;
+	width: 50px;
+	height: 50px;
+    cursor: pointer;
+}
+
+#iuGame-pokemons > * > :nth-child(1) {
+	position: relative;
+    background-size:100% 100%;
+    background-color: #535457;
+    border-radius: 15px;
+    left: 2px;
+    top: 2px;
+	width: 46px;
+	height: 46px;
+}
+
+#iuGame-pokemons > * > :nth-child(1):hover {
+    background-color: #313234;
+}
+
+#iuGame-pokemons > * > :nth-child(2) {
+    background-color: #8a0000;
+    position: absolute;
+    top: 38px;
+    left: 5px;
+    height: 2px;
+    width: 40px;
+}
+
+#iuGame-pokemons > * > :nth-child(2) > :nth-child(1) {
+    background-color: #008a17;
+    height: 2px;
+}
+
+/* ------------------------------------------ */
+#iuGame-BasicBottons {
+	position: absolute;
+	left: 10px;
+    bottom: 0px;
+}
+
+#iuGame-BasicBottons > * {
+	position: relative;
+    background-color: #313234;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    height: 64px;
+    width: 64px;
+    background-size:80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+#iuGame-BasicBottons > *:hover {
+    background-color: #3b3c3d;
+}

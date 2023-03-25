@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'pokemon ds font';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/pokemon-ds-font.woff2") format('woff2');
+}
+
+#uiChat {
+	font-family:pokemon ds font;
+    color: black;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 50px;
+    position: absolute;
+}
+
+#uiChat > :nth-child(1) {
+	background-color: #4A4B50;
+	border: 5px solid yellow;
+    padding: 10px;
+	border-radius: 15px;
+	display: block;
+}
+
+/* ---------------- author */
+#uiChat-author {
+	position: absolute;
+	background-color: #4A4B50;
+	border: 5px solid yellow;
+    padding: 5px;
+	border-radius: 10px;
+	margin-top: -30px;
+	margin-left: 30px;
+}
+
+#uiChat-author > :nth-child(1) {
+	background-color: white;
+	font-size: 30px;
+	border-radius: 5px;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* ---------------- text */
+#uiChat-text {
+	background-color: white;
+	width: 870px;
+	height: 155px;
+	border-radius: 5px;
+    padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+    overflow: hidden; 
+}
+
+#uiChat-text > :nth-child(1) {
+	position: relative;
+    height: 100%;
+    width: 100%;
+	font-size: 33px;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* ---------------- buttons */
+#uiChat > :nth-child(2) {
+	margin-top: 20px;
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#uiChat > :nth-child(2) > * {
+	background-color: #4A4B50;
+	border: 5px solid yellow;
+	padding: 5px;
+	width: 200px;
+	border-radius: 15px;
+}
+
+#uiChat > :nth-child(2) > * > :nth-child(1) {
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	font-size: 35px;
+	height: 35px;
+	text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+#uiChat > :nth-child(2) > * > :nth-child(1):hover {
+	background-color: rgb(155, 155, 155);
+	color: white;
+}

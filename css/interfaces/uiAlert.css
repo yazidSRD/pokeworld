@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'pokemon ds font';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/pokemon-ds-font.woff2") format('woff2');
+}
+
+.uiAlert {
+	font-family:pokemon ds font;
+    color: black;
+	height: 100%;
+	padding-top: 25px;
+    position: absolute;
+    font-size: 35px;
+}
+
+.uiAlert > * {
+    background-color: white;
+	padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    max-width: 1500px;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden; 
+}

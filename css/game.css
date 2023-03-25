@@ -1,0 +1,311 @@
+body{
+	user-select: none;
+}
+
+#world {
+	position: relative;
+	margin: 0px;
+}
+#inGame {
+	z-index: 0;
+	position: absolute;
+	width: 1984px;
+	height: 1088px;
+	background-color: black;
+}
+.player {
+	margin: 0px;
+	position: absolute;
+	/* left: 960px; */
+	/* top: 496px; 512px */
+	width: 64px;
+	height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player > img {
+    position: absolute;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player > :nth-child(3) {
+	transform: translateY(-100%);
+    width: 64px;
+	height: 64px;
+}
+
+.chunks {
+	width: 1024px;
+	height: 1024px;
+}
+
+.blocks {
+	width: 64px;
+	height: 64px;
+	/* border: 1px solid red; */
+}
+
+/* chat */
+/* @font-face {
+    font-family: 'pokemon ds font';
+    font-style: normal;
+    font-weight: 400;
+    src: url("pokemon-ds-font.woff2") format('woff2');
+}
+
+#chat {
+	position: absolute;
+	z-index: 1;
+	font-family:pokemon ds font;
+	visibility: hidden;
+}
+
+#author {
+	background-color: #4A4B50;
+	position: absolute;
+	left: 600px;
+	top: 825px;
+	height: 50px;
+	border-radius: 10px;
+	border: 5px solid yellow;
+	font-size: 30px;
+	visibility: hidden;
+	white-space: nowrap;
+}
+
+#author > div {
+	background-color: white;
+	position: relative;
+	border-radius: 5px;
+	height: 30px;
+	top: 5px;
+	left: 5px;
+	margin-right: 10px;
+}
+
+#text {
+	background-color: #4A4B50;
+	position: absolute;
+	left: 542px;
+	top: 850px;
+	width: 900px;
+	height: 200px;
+	border-radius: 15px;
+	border: 5px solid yellow;
+	font-size: 33px;
+}
+
+#text > div {
+	overflow: hidden;
+	background-color: white;
+	position: absolute;
+	left: 10px;
+	top: 25px;
+	width: 870px;
+	height: 155px;
+	border-radius: 5px;
+}
+
+#text > div > div {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 145px;
+	top: 0px;
+} */
+/* f */
+#inFight {
+	visibility: hidden;
+	position: absolute;
+	width: 1984px;
+	height: 1088px;
+}
+
+#around {
+	position: absolute;
+	background-image: url("../textures/test.jpg");
+	background-size: cover;
+	width: 1984px;
+	height: 1088px;
+}
+
+#menu {
+	position: absolute;
+	width: 1984px;
+	height: 1088px;
+	font-family:pokemon ds font;
+	color: white;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+#menu > div:nth-of-type(1) {
+	position: absolute;
+	width: 1984px;
+	height: 1088px;
+}
+
+#menu > div:nth-of-type(1) > div:nth-of-type(1) {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	background-color: #4A4B50;
+	top: 978px;
+	left: 10px;
+	border: 5px solid #969696;
+	border-radius: 25px;
+}
+
+#menu > div:nth-of-type(1) > div:nth-of-type(2) {
+	position: absolute;
+	top: 475px;
+	left: 450px;
+	width: 400px;
+	height: 400px;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}
+
+#menu > div:nth-of-type(1) > div:nth-of-type(3) {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	background-color: #4A4B50;
+	top: 10px;
+	left: 1674px;
+	border: 5px solid #969696;
+	border-radius: 25px;
+}
+
+#menu > div:nth-of-type(1) > div:nth-of-type(4) {
+	position: absolute;
+	top: 200px;
+	left: 1200px;
+	width: 400px;
+	height: 400px;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}
+
+#menu > div:nth-of-type(1) > div > div:nth-of-type(1) {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+#menu > div:nth-of-type(1) > div > div:nth-of-type(2) {
+	position: absolute;
+	top: 7px;
+	left: 215px;
+	font-size: 30px;
+}
+
+#menu > div:nth-of-type(1) > div > div:nth-of-type(3) {
+	position: absolute;
+	top: 45px;
+	left: 5px;
+	height: 35px;
+	width: 275px;
+	background-color: #000000;
+	border-radius: 25px;
+}
+
+#menu > div:nth-of-type(1) > div > div:nth-of-type(3) > div {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0 139 7);
+	border-radius: 25px;
+}
+
+#menu > div:nth-of-type(1) > div > div:nth-of-type(4) {
+	position: absolute;
+	top: 47.5px;
+	left: 20px;
+	font-size: 30px;
+}
+
+#menu > div:nth-of-type(2) {
+	top: 978px;
+	left: 740px;
+	position: absolute;
+	width: 1235px;
+	height: 100px;
+}
+
+#menu > div:nth-of-type(2) > div {
+	display: inline-block;
+	cursor: pointer;
+	width: 300px;
+	height: 100px;
+	background-color: #4A4B50;
+	border: 5px solid #969696;
+	border-radius: 25px;
+}
+
+#menu > div:nth-of-type(2) > div:hover {
+	background-color: #848484;
+}
+
+#menu > div:nth-of-type(2) > div > div {
+	position: relative;
+	text-align: center;
+	font-size: 70px;
+	top: 10px;
+}
+
+#menu > div:nth-of-type(3) {
+	top: 978px;
+	left: 740px;
+	position: absolute;
+	width: 1235px;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#menu > div:nth-of-type(3) > div {
+	margin-left: 10px;
+	display: inline-block;
+	cursor: pointer;
+	width: 300px;
+	height: 100px;
+	background-color: #4A4B50;
+	border: 5px solid #969696;
+	border-radius: 25px;
+}
+
+#menu > div:nth-of-type(3) > .back {
+	width: 150px;
+	height: 100px;
+}
+
+#menu > div:nth-of-type(3) > .back > div {
+	font-size: 70px;
+	top: 10px;
+}
+
+#menu > div:nth-of-type(3) > div:hover {
+	background-color: #848484;
+}
+
+#menu > div:nth-of-type(3) > div > div {
+	position: relative;
+	text-align: center;
+	font-size: 65px;
+	top: 5px;
+}
+
+#menu > div:nth-of-type(3) > div > div:nth-of-type(2) {
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	top: 5px;
+}

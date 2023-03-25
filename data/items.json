@@ -1,0 +1,38 @@
+dataItems = [
+    {
+        "name":"void",
+        "max":0,
+        "description":"",
+        "action":null,
+        "features":[]
+    },
+    {
+        "name":"red apricorn",
+        "max":10,
+        "description":"A red apricorn.",
+        "action":null,
+        "features":[]
+    },
+    {
+        "name":"poké ball",
+        "max":10,
+        "description":"A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.",
+        "action":"Catch",
+        "features":{
+            "Catch":{}
+        },
+        
+    },
+    {
+        "name":"potion",
+        "max":10,
+        "description":"A spray-type medicine for treating wounds. It can be used to restore 20 HP to a single Pokémon.",
+        "action":"Regeneration",
+        "features":{
+            "Regeneration":{
+                "points":20
+            }
+        },
+        
+    }
+]

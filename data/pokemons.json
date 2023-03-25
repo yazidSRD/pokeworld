@@ -1,0 +1,106 @@
+listOfpokemons = [
+    {
+        "name":"Bulbizarre",
+        "types": [
+            "plante",
+            "poison"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "spAttack": 65,
+            "spDefense": 65,
+            "speed": 45
+        },
+        "theme":0,
+        "attacks":{
+            "byLvl":{
+                "1":[6]
+            }
+        },
+        "sexe":87.5,
+        "earnXp":64,
+        "eggHatch":5120,
+        "catchRate":45,
+        "experienceCurve":0,
+        "statXp":[
+            ["spAttack",1],
+        ],
+        "Talents":{
+            "visible":[],
+            "hidden":[]
+        },
+        "evolution":[16,1]
+    },
+    {
+        "name":"Herbizarre",
+        "types": [
+            "plante",
+            "poison"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "spAttack": 80,
+            "spDefense": 80,
+            "speed": 60
+        },
+        "theme":0,
+        "attacks":{
+            "byLvl":{
+                "1":[6]
+            }
+        },
+        "sexe":87.5,
+        "earnXp":141,
+        "eggHatch":5120,
+        "catchRate":45,
+        "experienceCurve":0,
+        "statXp":[
+            ["spAttack",1],
+            ["spDefense",1]
+        ],
+        "Talents":{
+            "visible":[],
+            "hidden":[]
+        },
+        "evolution":[32,2]
+    },
+    {
+        "name":"Florizarre",
+        "types": [
+            "plante",
+            "poison"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "spAttack": 100,
+            "spDefense": 100,
+            "speed": 80
+        },
+        "theme":0,
+        "attacks":{
+            "byLvl":{
+                "1":[6]
+            }
+        },
+        "sexe":87.5,
+        "earnXp":236,
+        "eggHatch":5120,
+        "catchRate":45,
+        "experienceCurve":0,
+        "statXp":[
+            ["spAttack",2],
+            ["spDefense",1]
+        ],
+        "Talents":{
+            "visible":[],
+            "hidden":[]
+        },
+        "evolution":[]
+    }
+]

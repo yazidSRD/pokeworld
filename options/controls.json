@@ -1,0 +1,9 @@
+controls = {
+    "right": "d",
+    "left": "q",
+    "move forward": "z",
+    "move back": "s",
+    "interaction": "e",
+    "pokemons": "p",
+    "inventory": "i"
+};

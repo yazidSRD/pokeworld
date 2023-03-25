@@ -1,0 +1,434 @@
+objects = [
+    {},
+    {
+        "name": "grass",
+        "size":[1,1],
+        "center": {
+            "x": 0,
+            "y": 0
+        },
+        "composition":[
+            [
+                {
+                    "features":["Effect3D"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": [
+            [
+                true,1,true,
+                null,true,1,
+                true,1,true
+            ],
+            [
+                true,null,true,
+                1,true,1,
+                true,1,true
+            ],
+            [
+                true,1,true,
+                1,true,null,
+                true,1,true
+            ],
+            [
+                true,1,true,
+                1,true,1,
+                true,null,true
+            ],
+            [
+                null,null,true,
+                null,true,1,
+                true,1,true
+            ],
+            [
+                true,null,null,
+                1,true,null,
+                true,1,true
+            ],
+            [
+                true,1,true,
+                1,true,null,
+                true,null,null
+            ],
+            [
+                true,1,true,
+                null,true,1,
+                null,null,true
+            ],
+            [
+                null,1,true,
+                1,true,1,
+                true,1,null
+            ],
+            [
+                true,1,null,
+                1,true,1,
+                null,1,true
+            ],
+            [
+                null,1,true,
+                1,true,true,
+                true,true,true
+            ],
+            [
+                true,1,null,
+                true,true,1,
+                true,true,true
+            ],
+            [
+                true,true,true,
+                true,true,1,
+                true,1,null
+            ],
+            [
+                true,true,true,
+                1,true,true,
+                null,1,true
+            ]
+        ]
+    },
+    {
+        "name": "tree",
+        "size":[3,3],
+        "center": {
+            "x": 1,
+            "y": 2
+        },
+        "composition":[
+            [],
+            [],
+            [
+                {},
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "panel",
+        "size":[1,1],
+        "center": {
+            "x": 0,
+            "y": 0
+        },
+        "composition":[
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": "panel",
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "street lamp",
+        "size":[1,3],
+        "center": {
+            "x": 0,
+            "y": 2
+        },
+        "composition":[
+            [
+                {
+                    "features":["Light"],
+                    "interaction": false,
+                    "light":3,
+                    "stage":0
+                }
+            ],
+            [],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "pokeball",
+        "size":[1,1],
+        "center": {
+            "x": 0,
+            "y": 0
+        },
+        "composition":[
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": "inProgress",
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "charizard status",
+        "size":[4,5],
+        "center": {
+            "x": 1,
+            "y": 4
+        },
+        "composition":[
+            [],
+            [],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": "panel",
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "wooden bridge",
+        "size":[1,1],
+        "center": {
+            "x": 0,
+            "y": 0
+        },
+        "composition":[
+            [
+                {
+                    "features":["Bridge","Roof"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "stair",
+        "size":[1,1],
+        "center": {
+            "x": 0,
+            "y": 0
+        },
+        "composition":[
+            [
+                {
+                    "features":["Stair"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "bridge",
+        "size":[3,4],
+        "center": {
+            "x": 1,
+            "y": 0
+        },
+        "composition":[
+            [
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ],
+            [
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ],
+            [
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["Bridge"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    },
+    {
+        "name": "home",
+        "size":[6,8],
+        "center": {
+            "x": 1,
+            "y": 5
+        },
+        "composition":[
+            [],
+            [],
+            [],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {},{},{},
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ],
+            [
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": "enter",
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                },
+                {
+                    "features":["InvisibleWall"],
+                    "interaction": false,
+                    "stage":0
+                }
+            ]
+        ],
+        "transactions": []
+    }
+];
